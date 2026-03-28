@@ -1,0 +1,16 @@
+export const C = {
+  bg: '#07070f',
+  bg1: '#0d0d1a',
+  bg2: '#111124',
+  glass: 'rgba(18,18,36,0.92)',
+  border: 'rgba(255,255,255,0.12)',
+  accent: '#6ee7b7',
+  accentDim: 'rgba(110,231,183,0.15)',
+  danger: '#f87171',
+  dangerDim: 'rgba(248,113,113,0.12)',
+  text1: '#e8eaf0',
+  text2: '#8b90a0',
+  text3: '#3a3f52',
+  positive: '#6ee7b7',
+  negative: '#f87171',
+} as const

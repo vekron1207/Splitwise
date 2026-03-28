@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Splitwise",
+    "slug": "splitwise-clone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "splitwise",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#07070f"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.splitwise.clone"
+    },
+    "android": {
+      "package": "com.splitwise.clone",
+      "adaptiveIcon": {
+        "backgroundColor": "#07070f",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bf304d35-7004-408c-80a5-97e162069b4a"
+      },
+      "router": {}
+    },
+    "owner": "vekron"
+  }
+}
